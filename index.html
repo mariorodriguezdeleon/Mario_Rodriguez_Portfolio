@@ -8,8 +8,8 @@
   <!-- CSS  -->
   <link href="css/reset.css" type="text/css" rel="stylesheet" media="screen,projetion">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
@@ -30,34 +30,49 @@
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-<!--First Banner w/ Image and name-->
+  <!--First Banner w/ Image and name-->
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center grey-text text-Lighten-1">I'm Mario Rodriguez</h1>
+        <h1 class="header center grey-text text-Lighten-1">Hello, I'm <span class="fn-ln-name">Mario Rodriguez</span></h1>
         <div class="row center">
-          <h4 class="header col s12 strong black-text text-Lighten-1">I'm a Full-Stack Web Developer</h4>
+          <h3 class="header col s12 strong black-text text-Lighten-1">I'm a Full-Stack Web Developer</h3>
         </div>
         <div class="row center">
-          <img class="mario-image" src='mario.jpg'>
+          <img class="mario-image" src='img/mario.jpg'>
           <!-- <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a> -->
         </div>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 1"></div><!--Replace image with one of mine-->
   </div>
-<!--Container for Bio and Skill bars-->
+  <!--Container for Bio and Skill bars-->
   <div id="bio" class="container">
     <div class="section">
         <div class="row">
             <div class="col s12 center">
               <h3><i class="mdi-content-send brown-text"></i></h3>
               <h4>About Me</h4>
-              <p class="left-align light">Some of my projects go here</p>
+              <p class="left-align light">My Bio Goes Here</p>
           </div>
+          
+          <div class="col s12 m6">
+              <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title">Card Title</span>
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">This is a link</a>
+                  <a href="#">This is a link</a>
+                </div>
+              </div>
+            </div>
+
         </div>
         <div class="row">
             <div class="col s12 center">
@@ -69,7 +84,7 @@
       </div>
     </div>
   </div>
-<!--Container with image TODO:Add button to download Resume-->
+  <!--Container with image TODO:Add button to download Resume-->
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -78,12 +93,15 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="img/background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
+  <!--Container for Portfolio-->
+  <!--TODO: Create cards for each of six projects-->
+  <!--TODO: Link to your projects-->
+  <!--TODO: Find appropriate images for the cards-->
   <div id="portfolio" class="container">
     <div class="section">
-
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -91,41 +109,92 @@
           <p class="left-align light">Some of my projects go here</p>
         </div>
       </div>
-
     </div>
 
-    <!--   Icon Section : Add 'Who I am', 'My Skills' 'Download My CV' >
-       links to add => Github, Linkedin,   -->
-       <div class="row">
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text"><i class="fab fa-gitkraken"></i></h2>
-              <h5 class="center">Speeds up development</h5>
-  
-              <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+    <!--First Row for Project Cards-->
+    <div class="row">
+
+        <div class="col s6 m4">
+          <div class="card blue-grey darken-1">
+            <div class="card-image">
+              <img src="img/rubix_by_retsamys-d5q4qb6.gif">
+              <span class="card-title">GifTastic</span>
             </div>
-          </div>
-  
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text"><i class="fab fa-linkedin"></i></h2>
-              <h5 class="center">User Experience Focused</h5>
-  
-              <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-            </div>
-          </div>
-  
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text"><i class="fab fa-github"></i></h2>
-              <h5 class="center">Easy to work with</h5>
-  
-              <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <div class="card-action">
+              <a href="https://github.com/mariorodriguezdeleon/GifTastic">Find What Makes You Smile</a>
             </div>
           </div>
         </div>
+
+      <div class="col s6 m4">
+        <div class="card blue-grey darken-1">
+          <div class="card-image">
+            <img src="img/Gems_P4061909.jpg">
+            <span class="card-title">Gem-Collector</span>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/mariorodriguezdeleon/unit-4-game">Find Your Treasure</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s6 m4">
+        <div class="card blue-grey darken-1">
+          <div class="card-image">
+            <img src="img/Old_Growth_Forest_along_US_101_in_Washington.jpg">
+            <span class="card-title">West-Coast-Adventures</span>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/mariorodriguezdeleon/westCoastAdventures">Travel the Best Coast</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--Second Row for Project Cards-->
+    <div class="row">
+
+        <div class="col s6 m4">
+          <div class="card blue-grey darken-1">
+            <div class="card-image">
+              <img src="img/4906597152_2c68bd997b_b.jpg">
+              <span class="card-title">Golden Age of Arcade</span>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/mariorodriguezdeleon/Word-Guess-Game">Name that 80's Arcade</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col s6 m4">
+          <div class="card blue-grey darken-1">
+            <div class="card-image">
+              <img src="img/images_events.jpg">
+              <span class="card-title">Event Finder</span>
+            </div>
+            <div class="card-action">
+              <a href="#">Get out and Do Something</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col s6 m4">
+          <div class="card blue-grey darken-1">
+            <div class="card-image">
+              <img src="img/background3.jpg">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+
   </div>
 
+  <!--Picture Divider-->
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -134,9 +203,10 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 3"></div><!--Replace image with one of mine Venice-->
   </div>
 
+  <!--Contact Card-->
   <div id="contact" class="container">
       <div class="section">
   
@@ -159,10 +229,10 @@
           </div>
         </div>
       </div>
-      <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+      <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 3"></div>
     </div>
 
-  <footer class="page-footer teal">
+  <footer class="page-footer brown">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">

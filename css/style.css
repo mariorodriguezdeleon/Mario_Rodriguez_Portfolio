@@ -49,6 +49,8 @@ p {
   }
 }
 
+/*TODO: @media -> target no profile picture */
+
 .icon-block {
   padding: 0 15px;
 }
@@ -64,4 +66,8 @@ footer.page-footer {
   border-radius: 50%;
   width: 200px;
   height: auto;
+}
+
+.fn-ln-name {
+  color:#BDC2BF;
 }
