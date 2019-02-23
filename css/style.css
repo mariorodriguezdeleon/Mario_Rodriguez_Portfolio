@@ -47,6 +47,15 @@ p {
   #index-banner .section {
     top: 0;
   }
+
+  .mario-image {
+    display: none;
+  }
+
+  .far {
+    margin-top: 17px;
+  }
+
 }
 
 /*TODO: @media -> target no profile picture */
@@ -69,5 +78,5 @@ footer.page-footer {
 }
 
 .fn-ln-name {
-  color:#BDC2BF;
+  color:#404E4D;
 }
