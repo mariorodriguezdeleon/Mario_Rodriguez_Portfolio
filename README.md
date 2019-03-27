@@ -1,9 +1,6 @@
-# mario_rodriguez_portfolio
-Personal portfolio to showcase my work and use of various technologies
+# Portfolio - Mario Rodriguez
 
-[Mario Rodriguez - Portfolio](https://mariorodriguezdeleon.github.io/Mario_Rodriguez_Portfolio/)
-
-# Project Title
+* [Mario Rodriguez - Portfolio](https://mariorodriguezdeleon.github.io/Mario_Rodriguez_Portfolio/)
 
 One Paragraph of project description goes here
 
