@@ -10,7 +10,7 @@ No prerequisites to view this site
 
 ## Deployment
 
-This is a static web-site and can be deployed in just about anything, S3 bucket, Heroku, LAMP stack...your choice. Currently this is hosted on GitHub.io for easy visualization.  Optionally you can download all of the source files to your machinea and run it locally.
+This is a static web-site and can be deployed in just about anything, S3 bucket, Heroku, LAMP stack...your choice. Currently this is hosted on GitHub.io for easy visualization.  Optionally you can download all of the source files to your machine and run it locally.
 
 ## Built With
 
