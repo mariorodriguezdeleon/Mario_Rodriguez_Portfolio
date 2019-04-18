@@ -80,3 +80,9 @@ footer.page-footer {
 .fn-ln-name {
   color:#404E4D;
 }
+
+.fab {
+  font-size: 45px;
+  padding: 10px;
+  color: lightslategrey;
+}
