@@ -3,10 +3,12 @@
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
  *
- * Made By MaterializeCSS.com
- *
  * Updated by Mario 2019
  */
+
+html body {
+  font-size: 1rem;
+}
 
 nav ul a,
 nav .brand-logo {
@@ -14,7 +16,8 @@ nav .brand-logo {
 }
 
 p {
-  line-height: 2rem;
+  line-height: 1.5rem;
+  font-size: 1.25em;
 }
 
 .sidenav-trigger {
